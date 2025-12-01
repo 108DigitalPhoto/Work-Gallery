@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Our Work Gallery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --green: #2f8b5b;
+        --bg: #ffffff;
+        --card: #fff;
+        --muted: #6b5442;
+        --accent: #f6b35c;
+        font-family: "Noto Sans Thai", "Arial", sans-serif;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: #222;
+      }
+
+      header {
+        background-image: url("picture/BG_header.png");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+
+      .header-bar {
+        position: relative;
+        width: 100%;
+      }
+
+      .bar-img {
+        width: 100%;
+        display: block;
+      }
+
+      .logo-img {
+        position: absolute;
+        top: 0;
+        left: 8px;
+        width: 30%;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 0 16px;
+      }
+
+      .header-container {
+        position: relative;
+      }
+
+      .lang-buttons {
+        display: flex;
+        gap: 5px;
+        justify-content: flex-end;
+
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+      }
+
+      @media (min-width: 700px) {
+        header h1 {
+          font-size: 26px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <!--header bar-->
+        <img src="picture/header_bar.png" alt="header bar" class="bar-img" />
+        <!--108 logo-->
+        <img src="picture/108logo_header.png" alt="logo" class="logo-img" />
+      </div>
+      <!--page title-->
+      <img
+        src="picture/workGallery_title_header.png"
+        alt="title header"
+        style="width: 70%; padding-top: 10px"
+      />
+    </header>
+
+    <main class="container">
+      <!--signage title-->
+      <img
+        src="picture/signage_header.png"
+        alt="signage header"
+        style="width: 40%; display: block; margin: 0 auto; margin-top: -20px"
+      />
+      <!--signage main 1-->
+      <img
+        src="picture/signage_main-1.png"
+        alt="signage main-1"
+        style="width: 95%; display: block; margin: 0 auto"
+        id="sig_main-1"
+      />
+      <!--signage main 2-->
+      <img
+        src="picture/signage_main-2.png"
+        alt="signage main-2"
+        style="width: 95%; display: block; margin: 0 auto; margin-top: -5.5%"
+        id="sig_main-2"
+      />
+      <!--menu title-->
+      <img
+        src="picture/menu_header.png"
+        alt="signage header"
+        style="width: 35%; display: block; margin: 0 auto; margin-top: 30px"
+      />
+      <!--menu main 1-->
+      <img
+        src="picture/menu_main-1.png"
+        alt="menu main-1"
+        style="width: 95%; display: block; margin: 0 auto"
+        id="menu_main-1"
+      />
+      <!--menu main 2-->
+      <img
+        src="picture/menu_main-2.png"
+        alt="menu main-2"
+        style="width: 99%; display: block; margin: 0 auto; margin-top: -5.5%"
+        id="menu_main-2"
+      />
+      <!--sticker title-->
+      <img
+        src="picture/sticker_header.png"
+        alt="sticker header"
+        style="width: 35%; display: block; margin: 0 auto; margin-top: 30px"
+      />
+      <!--sticker main-->
+      <img
+        src="picture/sticker_main.png"
+        alt="sticker main"
+        style="width: 90%; display: block; margin: 0 auto; margin-bottom: 30%"
+        id="stic_main"
+      />
+    </main>
+  </body>
+</html>
